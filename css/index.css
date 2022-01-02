@@ -63,6 +63,7 @@ a {
   justify-content: space-between;
   height: 0.506667rem;
   line-height: 0.506667rem;
+  margin-bottom: 0.52rem;
 }
 .content .con-hd h4 {
   margin: 0;
@@ -77,4 +78,132 @@ a {
 .content .con-hd a {
   font-size: 0.293333rem;
   color: #999999;
+}
+.job-focus {
+  position: relative;
+}
+.job-focus .swiper-container {
+  width: 7.2rem;
+  height: 100%;
+}
+.job-focus .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.4;
+}
+.job-focus .swiper-slide a {
+  width: 4.506667rem;
+  height: 5.013333rem;
+}
+.job-focus .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.job-focus .swiper-slide p {
+  width: 4.506667rem;
+  font-size: 0.333333rem;
+  color: #333333;
+  margin-top: 0.32rem;
+}
+.job-focus .swiper-slide-active,
+.job-focus .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.study-content {
+  padding-bottom: 1.866667rem;
+}
+.study-focus {
+  position: relative;
+}
+.study-focus .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  width: 3.866667rem !important;
+  height: 4.533333rem;
+  background-color: #fff;
+  border-radius: 0.133333rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.study-focus .swiper-slide h5 {
+  margin: 0.133333rem 0;
+  padding: 0;
+  font-size: 0.373333rem;
+  font-weight: 400;
+  padding: 0 0 0 0.133333rem;
+}
+.study-focus .swiper-slide p {
+  margin: 0 0 0 -2.053333rem;
+  padding: 0;
+  text-align: left;
+  font-size: 0.346667rem;
+}
+.study-focus .swiper-slide p span {
+  margin: 0;
+  padding: 0;
+  color: #FF4400;
+}
+.study-focus .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.466667rem;
+  z-index: 9999;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .item img {
+  width: 0.52rem;
+  height: 0.546667rem;
+}
+.footer .item p {
+  font-size: 0.293333rem;
+  color: #666;
+}
+.footer .item:nth-child(1) p {
+  color: #2ccac7;
 }
